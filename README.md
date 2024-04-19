@@ -18,6 +18,6 @@ TO ADD SOME PLOTS
 
 ## Structure of the repository:
 - `\data` - directory with the raw data we used,
-- '\results` - direstory with all results we got from the processing, both with graph and later with evaluation metrics,
+- `\results` - direstory with all results we got from the processing, both with graph and later with evaluation metrics,
 - `` - FILE WITH GRAPH IMPLEMENTATION - TO ADD,
 - `metrics_evaluation.ipynb` - file with metrics evaluation and the results.
