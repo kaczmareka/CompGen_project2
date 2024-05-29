@@ -12,12 +12,12 @@ The data we chose for this project is available in `\data` directory. The source
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE226216 - Hi-C sequencing. Limited resolutions to 10kb, 20kb, 40kb, 100kb and 500kb (fine for us). 
 
 ## Chosen approach
-To solve the problem we used graph representation of interactions and applying community detection there to detect TADs.
+To solve the problem we used graph representation of interactions and applying Louvain community detection there to detect TADs. We applied a few transformations before running the analysis, such as erasing a few lines above and below diagonal, normalizing the data. 
 
 ## Evaluation
 As a ground truth for our algorithm we chose the results from the Arrowhead method. The evaluation of our solution with the description and interpretation of the results is in file `metrics_evaluation.ipynb`.
 
-There, we include the decription and interpretation of our new metric, that computes mean match of our communities with inner join of both results files.
+There, we include the decription and interpretation of our new metric, that computes mean match of our communities with inner join of both results files. In short, the closed to 1, the better. Higher values for our results mean that we marked fewer TADs and the average match between our TADs with regions matched by both us and Arrowhead is higher.
 
 ## Results
 
