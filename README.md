@@ -33,7 +33,7 @@ CSV with metrics:
 |--------------------------------------|----------------|----------------------------|------------------------------|
 | Balanced accuracy                    | 0.4982         | 0.4987                     | 0.4988                       |
 | Jaccard index                        | 0.0352         | 0.0375                     | 0.0391                       |
-| Average match for our communities    | 0.1425         | 0.1071                     | 0.1106                      |
+| Average match for our communities    | 0.1425         | 0.1071                     | 0.1106                       |
 | Average match for arrowhead          | 0.0347         | 0.0401                     | 0.0425                       |
 
 
@@ -42,4 +42,5 @@ CSV with metrics:
 - `\processed_data` - directory with the TADs found by us and Arrowhead method,
 - `\results` - direstory with all results we got from the processing, both with histograms and csv with metrics,
 - `metrics_and_results.ipynb` - file with metrics evaluation and the results,
+- `presentation.pdf` - final presentation for the project,
 - `run_Arrowhead.sh` - script to run Arrowhead method on the raw data, takes a lot of time,limit RAM or will use up to 38.6GB on Colab.
