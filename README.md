@@ -4,7 +4,7 @@ Authors: Agata Kaczmarek, Władysław Olejnik, Mateusz Stączek
 The aim of this project is to identify the topologically associating domains (TADs) on the basis of the heatmap from Hi-C experiment.
 
 ## Data
-The data we chose for this project is available in `\data` directory. The source of the data are as following: 
+The data we chose for this project would be available in `\data` directory. The source of the data are as following: 
  - `GSE226216_HMEC_Res10_20_40_100_500kb` - 575MB,
  - `GSE226216_Huh1_Inter_Intra_Res10_20_40_100_500kb` - 573MB,
  - `GSE226216_SNU449_Inter_Intra_Res10_20_40_100_500kb` - 584MB.
@@ -41,6 +41,7 @@ CSV with metrics:
 - `\data` - directory with the raw data we used (not uploaded),
 - `\processed_data` - directory with the TADs found by us and Arrowhead method,
 - `\results` - direstory with all results we got from the processing, both with histograms and csv with metrics,
+- `run_Arrowhead.ipynb` - notebook/script to run Arrowhead method on the raw data, takes a lot of time, limit RAM or will use up to 38.6GB on Colab,
+- `run_our_TADs_as_community_detection.ipynb` - notebook where we experimented with all hyperparameters,
 - `metrics_and_results.ipynb` - file with metrics evaluation and the results,
-- `presentation.pdf` - final presentation for the project,
-- `run_Arrowhead.sh` - script to run Arrowhead method on the raw data, takes a lot of time,limit RAM or will use up to 38.6GB on Colab.
+- `presentation.pdf` - final presentation for the project.
